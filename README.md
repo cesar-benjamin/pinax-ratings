@@ -86,7 +86,7 @@ Add `pinax.ratings.urls` to your project urlpatterns:
 ```python
     urlpatterns = [
         # other urls
-        url(r"^ratings/", include("pinax.ratings.urls", namespace="pinax_ratings")),
+        re_path(r"^ratings/", include("pinax.ratings.urls", namespace="pinax_ratings")),
     ]
 ```
 
