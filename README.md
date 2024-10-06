@@ -1,5 +1,7 @@
 ![](http://pinaxproject.com/pinax-design/patches/pinax-ratings.svg)
 
+This repo was forked to fix compatibility issues with geonode and django 4.2.x. Geonode 4.3.1 now is fully compatible, so, i have to archive this repo and delete it on Jan 2025.
+
 # Pinax Ratings
 
 [![](https://img.shields.io/pypi/v/pinax-ratings.svg)](https://pypi.python.org/pypi/pinax-ratings/)
